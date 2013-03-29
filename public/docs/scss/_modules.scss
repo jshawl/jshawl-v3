@@ -1,0 +1,21 @@
+/**
+ * Modules
+ */
+
+.module {
+	padding-left:1em;
+}
+
+.nav--primary { /* <ul class='nav--primary' ></ul> */ }
+.nav--primary{
+	padding:0;
+}
+.nav--primary li {
+	float:left;
+	width:25%;
+}
+.nav--primary li a {
+	display: block;
+	margin-right:10px;
+	padding:.25em;
+}

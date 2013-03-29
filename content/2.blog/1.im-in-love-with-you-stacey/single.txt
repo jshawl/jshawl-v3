@@ -7,7 +7,7 @@ The obligatory 'Hello World' blog post
 -
 content: 
 
-I heard about this cool CMS called Stacey today. It's a PHP based flat file content management system.
+I heard about this cool CMS called [Stacey](http://staceyapp.com) today. It's a PHP based flat file content management system.
 
 Using Stacey means:
 
@@ -17,5 +17,15 @@ Using Stacey means:
 * I never have to leave the command line.
 	* AWW YEAH!
 * Content is separated _entirely_ from layout/markup
+
+I haven't been this excited about since a piece of software since who knows when. 
+
+Anyway, I've been hacking away on Wordpress sites for a little over a year now, and it's always such a hassle setting up the database (local _and_ remote) and getting some kind of development environment in place.
+
+Not with Stacey! 
+
+
+
+
 
 

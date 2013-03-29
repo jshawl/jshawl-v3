@@ -1,0 +1,19 @@
+title: Christopher Baer
+-
+date: 2013-02
+-
+content: 
+Design by <a href='http://mkdaledesign.com/'>Solid DC</a>
+
+PHP, I love you very much.
+
+We needed to build a site that was:
+
+1. Responsive
+2. Lightweight
+3. Easily updated by the client
+
+Naturally, I thought PHP would be the best solution. Adding images to the work portfolio is as simple as dropping an image into a directory on the FTP server.
+I also got to play around with jQueryUI and draggable items in the context of a responsive design.
+
+<a href='http://christopherbaer.com'>visit site</a>

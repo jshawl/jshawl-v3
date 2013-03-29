@@ -1,8 +1,9 @@
 if $children do
     foreach $children do
-      <article>
-        <a href="@url">@title</a>
+      <article class='post module'>
+        <h3><a href="@url">@title</a></h3>
         <span>@date</span>
+        
         if @description do <span>@description</span> endif
       </article>
     endforeach

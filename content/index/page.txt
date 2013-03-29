@@ -1,0 +1,4 @@
+title: Home
+-
+content:
+Hey there! My name's Jesse Shawl, and I'm a freelance front end web developer. I'm <strong>that guy</strong>. You know, the one you need at some odd hour of the night when you can't figure out some web-related issue.

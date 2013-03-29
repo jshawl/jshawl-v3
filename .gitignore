@@ -1,0 +1,5 @@
+.DS_Store
+app/_cache/*
+!app/_cache/.gitignore
+logs
+.sass-cache/

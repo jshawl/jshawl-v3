@@ -1,0 +1,8 @@
+title: About
+-
+content: 
+I'm a web developer who writes clean, maintainable, and standards-compliant code. I typically work with Graphic/Web Designers to transform elegant designs into interactive web experiences.
+
+I'm happily self-employed as a freelancer working from my home office in Washington, DC. I have a degree in Philosophy and Linguistics from the University of Maryland (go Terps!).
+
+This site is hosted by Linode because I'm a roll-your-own kind of guy, and I look for a command line solution for just about everything.

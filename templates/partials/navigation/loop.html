@@ -1,0 +1,9 @@
+if $children do
+    foreach $children do
+      <article>
+        <a href="@url">@title</a>
+        <span>@date</span>
+        if @description do <span>@description</span> endif
+      </article>
+    endforeach
+endif

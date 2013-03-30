@@ -5,4 +5,4 @@ I'm a web developer who writes clean, maintainable, and standards-compliant code
 
 I'm happily self-employed as a freelancer working from my home office in Washington, DC. I have a degree in Philosophy and Linguistics from the University of Maryland (go Terps!).
 
-This site is hosted by Linode because I'm a roll-your-own kind of guy, and I look for a command line solution for just about everything.
+This site is hosted by [Linode](http://www.linode.com/?r=bb86bb3e29119742cd793535f6ab8f6f1adb78f6) because I'm a roll-your-own kind of guy, and I look for a command line solution for just about everything.

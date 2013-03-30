@@ -3,5 +3,5 @@ title: Contact
 content:
 301.531.4493
 
-jesse@jshawl.com
+[jesse@jshawl.com](mailto:jesse@jshawl.com)
 

@@ -11,7 +11,7 @@ I heard about this cool CMS called [Stacey](http://staceyapp.com) today. It's a 
 
 Using Stacey means:
 
-* I can host the source of this site on github
+* I can host the source of this site [on github](https://github.com/jshawl/jshawl-v3)
 	* there are no passwords/logins/admin screens.
 	* Everyone can see how I write and structure code.
 * I never have to leave the command line.

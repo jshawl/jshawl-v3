@@ -1,7 +1,7 @@
 title: Contact
 -
 content:
-301.531.4493
+[301.531.4493](tel:3015314493)
 
 [jesse@jshawl.com](mailto:jesse@jshawl.com)
 

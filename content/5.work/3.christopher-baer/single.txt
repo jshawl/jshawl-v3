@@ -1,6 +1,6 @@
 title: Christopher Baer
 -
-tags: PHP, jQuery, Repsonsive
+tags: PHP, jQuery, Responsive
 -
 content: 
 Design by <a href='http://mkdaledesign.com/'>Solid DC</a>

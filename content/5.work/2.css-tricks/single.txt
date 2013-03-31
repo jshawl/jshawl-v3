@@ -1,0 +1,12 @@
+title: CSS-Tricks: Rethinking Dynamic Page Replacing Content
+-
+tags: jQuery, HTML5
+-
+content:
+In my spare time, I like to read articles and watch screencasts about all things web. I came across an older screencast by Chris Coyier, and thought of how I could improve upon his demo.
+
+I tweeted about it, posted it on github, and before you know it, the CSS-Tricks founder asked me to contribute a guest post for the blog.
+
+It's all about using modern technologies to enhance the user experience without leaving out those who use outdated technologies and browsers.
+
+[read the article](http://css-tricks.com/rethinking-dynamic-page-replacing-content/)

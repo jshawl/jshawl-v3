@@ -2,6 +2,12 @@
  * Typography
  */  
 
-.nav--primary li a {
-	text-transform: uppercase;
+.date {
+	font-style: italic;
+}
+
+.site-footer,
+.nav--primary,
+.date {
+	font-size:.75em;
 }

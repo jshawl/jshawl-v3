@@ -1,6 +1,6 @@
 title: Christopher Baer
 -
-date: 2013-02
+tags: PHP, jQuery, Repsonsive
 -
 content: 
 Design by <a href='http://mkdaledesign.com/'>Solid DC</a>

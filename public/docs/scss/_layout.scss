@@ -6,3 +6,21 @@ body {
 	max-width:30em;
 	margin:auto;
 }
+
+.main {
+	padding:1em;
+	margin:2em 0;
+	border-radius: 5px;
+}
+
+.main h2, .main h3, .post p {
+	margin:0;
+}
+
+.site-footer {
+	margin-bottom: 2em;
+}
+
+.post {
+	margin:1em 0;
+}

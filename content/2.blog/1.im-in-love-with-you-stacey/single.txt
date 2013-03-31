@@ -1,6 +1,6 @@
 title: I'm in love with you, Stacey
 -
-date: 2013-03-29
+date: March 29th, 2013
 -
 description: 
 The obligatory 'Hello World' blog post

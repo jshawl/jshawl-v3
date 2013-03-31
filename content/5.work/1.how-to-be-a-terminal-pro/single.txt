@@ -1,0 +1,12 @@
+title: How to be a Terminal Pro
+-
+tags: Terminal, Bash, Unix
+-
+content:
+I'm that developer that looks for a command-line solution for just about everything.
+
+When TutsPlus tweeted about being in need of a Terminal instructor, I sent in a sample video about setting up SSH keys on Mac OS X, and they loved it!
+
+I really enjoy making these kinds of courses because I have 100% control over the material and the progression of the lessons. I was able to distill the most important and valuable things that I've learned and give that back to the community in screencast form. (I always find videos to be more helpful than text when it comes to programming)
+
+<a href='https://tutsplus.com/course/how-to-be-a-terminal-pro/'>visit course</a>

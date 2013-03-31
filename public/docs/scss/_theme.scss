@@ -2,18 +2,47 @@
  * Theme
  */
 
-/* orange */
 .nav--primary li a {
-	border-bottom:5px solid #FF6644;
+	-webkit-transition:border-radius .5s ease;
+}
+
+.nav--primary li a:hover {
+	border-radius:0px;
+}
+
+.main h2 a, .main h3 a {
+	color:#000;
+	text-decoration: none;
+}
+
+/* orange */
+$orange:#FF6644;
+
+.main a {
+	color:$orange;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+
+.nav--primary li a {
+	background: $orange;
+	color:#fff;
 }
 .post {
 	border-left:5px solid #FF6644;
 }
+hr {
+	border:none;
+	background:rgba(#000, .1);
+	height:1px;
+}
 
 
 .nav--primary li a:hover {
-	background:#FF6644;
 	color:#fff;
-	border:none;
 }
 
+.main {
+	background-color: #fff;
+	box-shadow: 0px 0px 5px rgba(#000, .1);
+}

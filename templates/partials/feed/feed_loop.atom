@@ -1,4 +1,6 @@
-foreach $root do
-  :feed_entry
-  :feed_children
-endforeach
+get "/blog" do
+  foreach $children do
+    :feed_entry
+  	:feed_children
+  endforeach
+end

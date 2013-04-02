@@ -1,0 +1,16 @@
+title: Greg Gersch
+-
+tags: Wordpress, jQuery, Responsive
+-
+content: 
+Design by <a href='http://greggersch.com/'>Greg Gersch</a>
+
+Wordpress rocks! Greg will be able to edit the content as needed through a WYSIWYG editor.
+
+Oh yes... and it's responsive!
+
+With [fitvids.js](http://fitvidsjs.com/), I was able to drop in a simple embed code for YouTube videos and let the jQuery do all the magic regarding aspect ratio calculations.
+
+Lastly, I've never worked with a two-column layout in a Wordpress environment before. I used [this plugin](http://wordpress.org/extend/plugins/multiple-content-blocks/), which just adds additional WYSIWYG windows in the admin interface. 
+
+<a href='http://greggersch.com'>visit site</a>

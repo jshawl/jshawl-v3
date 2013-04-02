@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(0);
 # let people know if they are running an unsupported version of PHP
 if(phpversion() < 5) {
   

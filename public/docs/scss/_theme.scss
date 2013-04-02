@@ -2,14 +2,6 @@
  * Theme
  */
 
-.nav--primary li a {
-	-webkit-transition:border-radius .5s ease;
-}
-
-.nav--primary li a:hover {
-	border-radius:0px;
-}
-
 .main h2 a, .main h3 a {
 	color:#000;
 	text-decoration: none;
@@ -17,6 +9,7 @@
 
 /* orange */
 $orange:#FF6644;
+$dark-orange:darken($orange, 20%);
 
 .main a {
 	color:$orange;
@@ -27,6 +20,12 @@ $orange:#FF6644;
 .nav--primary li a {
 	background: $orange;
 	color:#fff;
+	-webkit-transition:all .5s ease;
+}
+
+.nav--primary li a:hover {
+	background: $dark-orange;
+	
 }
 .post {
 	border-left:5px solid #FF6644;

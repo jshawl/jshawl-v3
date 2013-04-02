@@ -3,3 +3,5 @@ app/_cache/*
 !app/_cache/.gitignore
 logs
 .sass-cache/
+pocket-api.php
+content/2.blog/2*

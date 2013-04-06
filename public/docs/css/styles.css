@@ -512,7 +512,7 @@ h1, h2, h3 {
   float: right; }
 
 .main {
-  padding: .5em;
+  padding: 1.5em;
   margin: 2em 0; }
 
 .main h2, .main h3, .post p {

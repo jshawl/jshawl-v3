@@ -32,16 +32,18 @@
 	display: none;
 }
 
-@media all and (max-width:35em){
+@media all and (max-width:40em){
 	.nav--primary{
 		display: none;
 		float:none;
 		clear:both;
+		padding-top:1em;
 		li{
 			float:none; /* this is bad :( */
 			display: block;
 			a{
 				text-align: left;
+				margin:0;
 			}
 		}
 	}

@@ -18,12 +18,33 @@
 body{
 	font-size:100%;
 	font-size:1.5em;
-	font-family:'PT Sans';
+	font-family:'source-sans-pro';  
 	font-weight: 400;
 }
 
+@media all and (max-width:40em){
+	body {
+		font-size:1em;
+	}
+
+	.nav--primary li a {
+		font-size: 1.5em;
+	}
+}
+
 h1, h2, h3 {
-	font-family: 'Cubano';
+	font-family: 'brandon-grotesque';
+	line-height: 1;
+}
+
+h1{
+	font-size: 2.5em;
+	font-weight: 300; 
+	font-style: italic;
+}
+
+h2 {
+	font-size: 2em;
 }
 
 

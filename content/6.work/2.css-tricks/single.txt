@@ -1,4 +1,4 @@
-title: CSS-Tricks: Rethinking Dynamic Page Replacing Content
+title: CSS-Tricks
 -
 tags: jQuery, HTML5
 -

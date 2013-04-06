@@ -16,16 +16,28 @@
 }
 
 .main{
-	padding:1.5em;
+	padding:.5em;
 	margin:2em 0;
 }
 
-.main h2, .main h3, .post p {
+@media all and(max-width:40em){
+	.main{
+		padding:1em;
+		margin: .5em 0;
+	}
+}
+
+.main h1, .main h2, .main h3, .post p {
 	margin:0;
 }
 
+.main h1 {
+	padding-bottom: .125em;
+	margin-bottom: .75em;
+}
+
 .post {
-	margin:1em 0 2em 0;
+	margin:3em 0 3em 0;
 }
 
 .site-footer{

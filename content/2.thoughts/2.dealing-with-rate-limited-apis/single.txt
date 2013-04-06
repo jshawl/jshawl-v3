@@ -18,6 +18,7 @@ Before, any time someone visited my /apis/ page, the JSON call would make the re
 What I want to do instead is setup a CRON job to get that JSON once per hour, save it as some file (github-data.json maybe?), and then make our JSON call reference the cached response. NOTE: I'm choosing once per hour, but you can make the call as often as you like (under 60 times per hour). That way, we'll never have to worry about exceeding our rate limit for unauthenticated API access.
 
 First, let's write a shell script to grab that data and write it to a file:
+<span data-lang='sh'></span>
 
     #!/bin/sh
 
@@ -28,10 +29,12 @@ First, let's write a shell script to grab that data and write it to a file:
 Since we're running this script from a CRON job, we should use absolute paths. Who knows where that file could end up!
 
 Now we make it executable
+<span data-lang='sh'></span>
 
     $ chmod +x ./get-github-json.sh
 
 Test it out!
+<span data-lang='sh'></span>
 
     $ ./get-github-json.sh
 
@@ -42,12 +45,14 @@ If it worked, you should see a new file called github.json. Cool! so the shell s
 I chose to use Vim as my crontab editor. Just add our crontab entry.
 
 ProTip! Need help adding a new crontab? Check out this tool: [http://www.generateit.net/cron-job/index.php](http://www.generateit.net/cron-job/index.php)
+<span data-lang='sh'></span>
 
     # execute /var/www/jshawl.com/get-github-json.sh once per hour
     # every day, every month, every year
     0 * * * * /var/www/jshawl.com/get-github-json.sh
 
 This is really cool. Our /get-github-json.sh will access the Github API once per hour. The last thing we need to do is change our $.getJSON call to reference the cached copy anytime your webpage loads.
+<span data-lang='lang-js'></span>
 
     $.getJSON('/github.json', function (result) {
     	// do magical things with our result object.

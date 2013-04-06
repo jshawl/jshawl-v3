@@ -1,0 +1,116 @@
+title: Syntax Highlighting in Markdown
+-
+date: April 6th, 2013
+-
+description: 
+This is how I syntax highlight my markdown posts
+-
+content: 
+
+All the content on this site is generated from markdown. Thanks, [stacey](http://www.staceyapp.com/).
+
+I decided to use Bootstrap's [code CSS](http://twitter.github.io/bootstrap/base-css.html#code) for the styling. This just gives me some super general &lt;pre&gt; and &lt;code&gt; styles.
+
+For the syntax specific stuff, I chose Google's Prettify.
+
+You'll need:
+
+* The CSS - [http://twitter.github.io/bootstrap/assets/js/google-code-prettify/prettify.css](http://twitter.github.io/bootstrap/assets/js/google-code-prettify/prettify.css)
+* The JS - [http://twitter.github.io/bootstrap/assets/js/google-code-prettify/prettify.js](http://twitter.github.io/bootstrap/assets/js/google-code-prettify/prettify.js)
+
+The Javascript will parse each &lt;pre&gt; with the class '.prettify' and add some spans so we can add fancy colors and make our code more readable. You'll need to include both of these files on whichever page you want to do the syntax highlighting on. 
+
+Now for the markdown specifics:
+
+I added a little jQuery to the bottom of my main.js file:
+<span data-lang='lang-js'></span>
+    
+    // add the class 'prettyprint' to each <pre> tag
+    $('pre').addClass('prettyprint');
+    // tell prettify to parse each code block with the prettyprint class
+    window.prettyPrint && prettyPrint();
+
+If we weren't using markdown, we could just add the corresponding language as a class:
+
+    <pre class="prettyprint lang-html">
+      The lang-* class specifies the language file extensions.
+      File extensions supported by default include
+      "bsh", "c", "cc", "cpp", "cs", "csh", "cyc", "cv", "htm", "html",
+      "java", "js", "m", "mxml", "perl", "pl", "pm", "py", "rb", "sh",
+      "xhtml", "xml", "xsl".
+    </pre>
+
+But in markdown, you can generate code blocks by indenting lines four spaces. In effect, this means that you can't add the language class in the markdown file. (Ain't no &lt;pre> tag there!)
+
+Oh I know! [I'll just use JavaScript!](http://alistapart.com/article/mo-pixels-mo-problems#figure1)
+
+Here's what my markdown of a code block looks like:
+
+    <span data-lang='lang-js'></span>
+    
+        // some JavaScript that's been indented four spaces
+        $('pre').addClass('prettyprint');
+
+Yeah, you _can_ just put a span tag in there! Now we just need to find each &lt;span> with a data-lang attribute, and add that attribute's value to the next code block.
+
+Here's what my main.js ended up looking like:
+<span data-lang='lang-js'></span>
+
+    $('[data-lang]').each(function(){
+
+        // get the language
+        var language = $(this).attr('data-lang');
+
+        // add the data-lang as a class to the next sibling
+        // this is pretty hack-y at the moment. The way I've been 
+        // writing markdown generates a DOM node that looks like this:
+        // <p>
+        //   Some text explaining the next code block
+        //   <span data-lang='lang-js'></span>
+        // </p>
+        // <pre class='prettify'>
+        //   <code>
+        //      // code!
+        //   </code>
+        // </pre>
+        //
+        // So I know (accurately guess) that the next code block can be referenced as:
+        // The next sibling of the parent of the span with the class [data-lang]
+        //
+        // It might make more sense to look at a markdown example: 
+        // https://github.com/jshawl/jshawl-v3/blob/master/content/2.thoughts/2.dealing-with-rate-limited-apis/single.txt#L54-59
+
+        $(this).parent().next().addClass(language);
+
+    });
+
+    $('pre').addClass('prettyprint');
+    window.prettyPrint && prettyPrint();
+
+###What this means
+
+Any code block preceded by a span with a [data-lang] attribute, will generate a code block that looks like this:
+<span data-lang='lang-html'></span>  
+
+    <pre class='prettify lang-html'>
+        <!-- .prettify was added at the bottom of main.js -->
+        <!-- .lang-html was added from the preceding <span>'s [data-lang] attribute -->
+        <code></code>
+    </pre>
+
+Happy highlighting!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

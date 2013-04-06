@@ -1,7 +1,8 @@
 <div class='repos'></div>
 <script>
-	$.getJSON('https://api.github.com/users/jshawl/starred?type=public&callback=?', function (result) {
-        var repos = result.data;
+	$.getJSON('/github.json', function (result) {
+        //console.log(result);
+        var repos = result;
         $.each(repos, function(i, repo){
         	item = $('<article class="post module" />');
         	name = repo.name;

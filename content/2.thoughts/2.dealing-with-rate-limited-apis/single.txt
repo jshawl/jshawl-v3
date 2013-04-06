@@ -26,7 +26,7 @@ First, let's write a shell script to grab that data and write it to a file:
 	curl https://api.github.com/users/jshawl/starred?type=public > /var/www/jshawl.com/github.json
 	#oh snap! a one liner!
 
-Since we're running this script from a CRON job, we should use absolute paths. Who knows where that file could end up!
+I named this file 'get-github-json.sh'. Since we're running this script from a CRON job, we should use absolute paths. Who knows where that file could end up!
 
 Now we make it executable
 <span data-lang='sh'></span>

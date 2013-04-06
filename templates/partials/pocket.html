@@ -1,0 +1,22 @@
+<div class='pockets'></div>
+<!-- I'll show you how I got this in time. 
+    I can't put it on github right now because /pocket-api.php
+    has my access token.
+-->
+<script>
+
+	$.getJSON('http://jshawl.com/pocket-api.php', function (pockets) {
+        
+        $.each(pockets, function(i, pocket){
+        	item = $('<article class="post module" />');
+            name = pocket.item;
+        	link = pocket.url;
+        	title = $('<h3><a href="'+link+'">'+name+'</a></h3>');
+        	description = $('<span class="date description">'+pocket.excerpt+'</span>');
+        	title.appendTo(item);
+        	description.appendTo(item);
+        	item.appendTo($('.pockets'));
+        	//console.log(i+'=>'+repo.html_url);
+        });
+    });
+</script>    

@@ -1,13 +1,25 @@
+
 </section>
-      <hr>
-      <footer class='site-footer'>&copy; Copyright @name @current_year<br>
-        <em>Content managed by <a href="http://www.staceyapp.com">stacey</a></em></footer>
-    <script src="@root_path/public/docs/js/jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>
+</div><!--//wrapper-->
+      <footer class='site-footer'>
+        <div class='wrapper'>&copy; Copyright @name @current_year<br>
+          <em>Content managed by <a href="http://www.staceyapp.com">stacey</a></em>
+          <br>
+        <a href="https://twitter.com/jshawl" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @jshawl</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+        </footer>
+    
     <script>
             var _gaq=[['_setAccount','UA-26695633-2'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
+            $(function(){
+              $('.js-nav__toggle').bind('click', function(event){
+                $('.nav--primary').toggle();
+              });
+            });
         </script>   
   </body>
 </html>

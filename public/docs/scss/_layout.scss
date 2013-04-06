@@ -2,25 +2,34 @@
  * Layout
  */
 
-body {
-	max-width:30em;
-	margin:auto;
+.site-header {
+	padding:.5em;
 }
 
-.main {
-	padding:1em;
+.logo {
+	float:left;
+}
+
+.nav--primary,
+.nav__toggle{
+	float:right;
+}
+
+.main{
+	padding:.5em;
 	margin:2em 0;
-	border-radius: 5px;
+	min-height:300px;
 }
 
 .main h2, .main h3, .post p {
 	margin:0;
 }
 
-.site-footer {
-	margin-bottom: 2em;
-}
-
 .post {
 	margin:1em 0 2em 0;
+}
+
+.site-footer{
+	min-height:10em;
+	padding:5em 0;
 }

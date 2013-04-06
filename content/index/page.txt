@@ -1,6 +1,12 @@
-title: Home
+title: Jesse Shawl
 -
 content:
+
 Hey there! My name's Jesse Shawl, and I'm a freelance front end web developer. 
+
+(Translation: I make websites.)
+
+I'm kind of obsessed with the web ('websessed' maybe?!), and I like to solve problems.
+
 
 

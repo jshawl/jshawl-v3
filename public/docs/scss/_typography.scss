@@ -2,6 +2,19 @@
  * Typography
  */  
 
+@font-face {
+  font-family: "Flat-UI-Icons-24";
+  src: url("../fonts/Flat-UI-Icons-24.eot");
+  src: url("../fonts/Flat-UI-Icons-24.eot?#iefix") format("embedded-opentype"), url("../fonts/Flat-UI-Icons-24.woff") format("woff"), url("../fonts/Flat-UI-Icons-24.ttf") format("truetype"), url("../fonts/Flat-UI-Icons-24.svg#Flat-UI-Icons-24") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.nav__toggle:before {
+  content: "\e006"; }
+  .nav__toggle {
+	font-family: "Flat-UI-Icons-24";
+}
+
 body{
 	font-size:100%;
 	font-size:1.5em;
@@ -9,17 +22,26 @@ body{
 	font-weight: 400;
 }
 
-p {
-	font-family: 'PT Sans';
-	font-weight: 400;
+h1, h2, h3 {
+	font-family: 'Cubano';
 }
+
 
 .date {
 	font-style: italic;
 }
 
-.site-footer,
 .nav--primary,
+.nav__toggle,
 .date {
 	font-size:.75em;
+}
+
+.logo {
+	font-family: "Cubano";
+}
+
+.site-footer {
+	font-size:.5em;
+	text-align: center;
 }

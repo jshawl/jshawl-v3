@@ -1,0 +1,17 @@
+<div class='repos'></div>
+<script>
+	$.getJSON('https://api.github.com/users/jshawl/starred?type=public&callback=?', function (result) {
+        var repos = result.data;
+        $.each(repos, function(i, repo){
+        	item = $('<article class="post module" />');
+        	name = repo.name;
+        	link = repo.html_url;
+        	title = $('<h3><a href="'+link+'">'+name+'</a></h3>');
+        	description = $('<span class="date description">'+repo.description+'</span>');
+        	title.appendTo(item);
+        	description.appendTo(item);
+        	item.appendTo($('.repos'));
+        	//console.log(i+'=>'+repo.html_url);
+        });
+    });
+</script>

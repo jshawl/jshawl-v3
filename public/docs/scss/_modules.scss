@@ -2,21 +2,66 @@
  * Modules
  */
 
-.module {
-	padding-left:1em;
+.wrapper {
+	max-width:30em;
+	margin:auto;
+}
+
+.logo {
+	display: block;
+	padding:.25em .5em;
 }
 
 .nav--primary { /* <ul class='nav--primary' ></ul> */ }
 .nav--primary{
 	padding:0;
+	margin:0;
 }
 .nav--primary li {
 	float:left;
-	width:25%;
 }
-.nav--primary li a {
+.nav--primary li a,
+.nav__toggle {
 	display: block;
 	margin-right:5px;
-	padding:.5em;
+	padding:.5em 1em;
 	text-align: center;
+}
+
+.nav__toggle{
+	display: none;
+}
+
+@media all and (max-width:35em){
+	.nav--primary{
+		display: none;
+		float:none;
+		clear:both;
+		li{
+			float:none; /* this is bad :( */
+			display: block;
+			a{
+				text-align: left;
+			}
+		}
+	}
+	.nav__toggle{
+		display: block;
+	}
+}
+
+.squares {
+	height:20em;
+	width:20em;
+	border:5px solid red;
+}
+
+.squares:after{
+	content:'';
+	display: block;
+	height:20em;
+	width:20em;
+	border:5px solid green;
+	
+	
 }

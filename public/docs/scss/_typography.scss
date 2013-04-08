@@ -24,11 +24,13 @@ body{
 
 @media all and (max-width:40em){
 	body {
-		font-size:1em;
+		font-size:1.25em;
 	}
-
-	.nav--primary li a {
-		font-size: 1.5em;
+	p {
+		font-size: .85em;
+	}
+	.site-header {
+		font-size: 1.15em;
 	}
 }
 

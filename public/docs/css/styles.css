@@ -482,10 +482,13 @@ body {
 
 @media all and (max-width: 40em) {
   body {
-    font-size: 1em; }
+    font-size: 1.25em; }
 
-  .nav--primary li a {
-    font-size: 1.5em; } }
+  p {
+    font-size: .85em; }
+
+  .site-header {
+    font-size: 1.15em; } }
 h1, h2, h3 {
   font-family: 'brandon-grotesque';
   line-height: 1; }
@@ -591,7 +594,8 @@ h2 {
       display: block; }
       .nav--primary li a {
         text-align: left;
-        margin: 0; }
+        margin: 0;
+        padding: 1em; }
 
   .nav__toggle {
     display: block; } }
@@ -673,7 +677,7 @@ h1 {
 .nav--primary li a {
   color: #fff; }
 
-@media all and (max-width: 35em) {
+@media all and (max-width: 40em) {
   .nav--primary li {
     border-top: 1px solid #16a085; } }
 .cf:after {

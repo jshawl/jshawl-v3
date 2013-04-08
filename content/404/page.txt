@@ -1,0 +1,8 @@
+title: Page Not Found
+-
+content:
+
+I'm really sorry about this, and it's not your fault, but I'm unable to locate the page you requested.
+
+Why not visit the [home page](/) and poke around?
+

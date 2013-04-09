@@ -3,4 +3,5 @@ title: APIs
 content:
 
 * [Pocket](#pocket)
+* [Instagram](#instagram)
 * [Github](#github)

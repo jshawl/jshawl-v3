@@ -1,0 +1,28 @@
+<div class='instagrams'></div>
+<!-- I'll show you how I got this in time. 
+    I can't put it on github right now because /instagram-api.php
+    has my access token.
+-->
+<script>
+   
+	$.getJSON('http://jshawl.com/instagram-api.php', function (instagrams) {
+        $.each(instagrams, function(i, instagram){
+        	item = $('<article class="post module" />');
+            console.log(item);
+            
+            console.log(instagram);
+            image_url = instagram.image_url;
+        	image_caption = String(instagram.img_caption);
+            
+           
+            image = $('<img src="'+image_url+'"/>');
+            caption_string = $('<span class="description date">'+image_caption+'</span>');
+            console.log(image_caption);
+        	
+        	image.appendTo(item);
+        	caption_string.appendTo(item);/**/
+        	item.appendTo($('.instagrams'));
+        	//console.log(i+'=>'+repo.html_url);*/
+        });
+    });
+</script> 

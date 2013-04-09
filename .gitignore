@@ -5,3 +5,4 @@ logs
 .sass-cache/
 pocket-api.php
 github.json
+instagram-api.php

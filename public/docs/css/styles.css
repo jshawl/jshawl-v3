@@ -495,11 +495,15 @@ h1, h2, h3 {
 
 h1 {
   font-size: 2.5em;
-  font-weight: 300;
-  font-style: italic; }
+  font-weight: 900; }
 
 h2 {
-  font-size: 2em; }
+  font-size: 2em;
+  font-weight: 500; }
+
+h3 {
+  font-weight: 500;
+  font-size: 1.25em; }
 
 .date {
   font-style: italic; }
@@ -510,7 +514,9 @@ h2 {
   font-size: .75em; }
 
 .logo {
-  font-family: "Cubano"; }
+  font-family: "brandon-grotesque";
+  font-weight: 900;
+  font-style: italic; }
 
 .site-footer {
   font-size: .5em;

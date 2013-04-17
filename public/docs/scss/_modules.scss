@@ -9,7 +9,7 @@
 
 .logo {
 	display: block;
-	padding:8px 20px;
+	padding:0em .5em;
 }
 
 .nav--primary { /* <ul class='nav--primary' ></ul> */ }
@@ -30,6 +30,8 @@
 
 .nav__toggle{
 	display: none;
+	font-size:1em;
+	padding:.65em;
 }
 
 @media all and (max-width:40em){

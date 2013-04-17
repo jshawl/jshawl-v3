@@ -516,7 +516,8 @@ h3 {
 .logo {
   font-family: "brandon-grotesque";
   font-weight: 900;
-  font-style: italic; }
+  font-style: italic;
+  font-size: 1.6em; }
 
 .site-footer {
   font-size: .5em;
@@ -566,7 +567,7 @@ h3 {
 
 .logo {
   display: block;
-  padding: 8px 20px; }
+  padding: 0em 0.5em; }
 
 .nav--primary {
   /* <ul class='nav--primary' ></ul> */ }
@@ -586,7 +587,9 @@ h3 {
   text-align: center; }
 
 .nav__toggle {
-  display: none; }
+  display: none;
+  font-size: 1em;
+  padding: .65em; }
 
 @media all and (max-width: 40em) {
   .nav--primary {

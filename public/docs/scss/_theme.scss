@@ -4,8 +4,7 @@
 
 body {
 	background-color: #fff;
-	color:#34495e;
-	color:lighten(#272727, 0%);
+	color:#222;
 }
 
 .main {
@@ -18,40 +17,35 @@ body {
 
 h1, h2, h3,
 h2 a {
-	color:#272727; 
+	color:#222; 
 }
 
 h1,
-h1 a{
-	color:#272727;
-	text-shadow:1px 1px 0px #fff,
-				1px 2px 0px lighten(#272727, 60%);
+h1 a,
+.logo a{
+	color:#222;
+	text-decoration: none;
 }
 
 h3 a, a {
-	color:#272727;
+	color:#222;
 	-webkit-transition:all .5s ease;
-	&:hover{
-		color:#16A085;
-	}
 }
 
 a{
-	text-decoration:underline;
-	color:#16A085;
+	color:#222;
 }
 
 
 .site-header {
-	background:#1ABC9C;
-	background:#272727;
+	
 }
 .site-header a {
-	color:#fff;
-	text-decoration: none;
-	&:hover{
-		background-color:#16A085;
-	}
+	
+}
+
+.errata{
+	color:#9b9b9b;
 }
 
 .date, .description {
@@ -63,21 +57,23 @@ a{
 	border-top: 1px solid lighten(#272727, 80%);
 }
 
-.site-header {
-	border-bottom:5px solid #16A085;
-}
 
 h1 {
 	border-bottom: 1px solid lighten(#272727, 80%);
 }
 
-.nav--primary li,
-.nav--primary li a {
-	color:#fff;
-}
 
 @media all and (max-width:40em){
 	.nav--primary li {
-		border-top:1px solid #16A085;
+		border-top:1px solid #CCCCCC;
 	}
+}
+
+.nav--primary li a,
+a{
+	color:#222;
+	&:hover{
+		color:#F93F3B;
+	}
+	
 }

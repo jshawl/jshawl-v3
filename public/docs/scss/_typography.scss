@@ -18,8 +18,8 @@
 body{
 	font-size:100%;
 	font-size:1.5em;
-	font-family:'source-sans-pro';  
-	font-weight: 400;
+	font-weight: 200;
+	font-family: 'source-sans-pro';
 }
 
 @media all and (max-width:40em){
@@ -35,22 +35,21 @@ body{
 }
 
 h1, h2, h3 {
-	font-family: 'brandon-grotesque';
 	line-height: 1;
+	font-weight: 900;
+
 }
 
 h1{
 	font-size: 2.5em;
-	font-weight: 900;   
 }
 
 h2 {
 	font-size: 2em;
-	font-weight:500;
+	font-weight: 400;
 }
 
 h3{
-	font-weight: 500;
 	font-size: 1.25em;
 }
 
@@ -59,17 +58,23 @@ h3{
 	font-style: italic;
 }
 
+.errata{
+	font-size:.429em;
+	font-weight: 200;
+	font-style:italic;
+	letter-spacing: 1px;
+}
+
 .nav--primary,
 .nav__toggle,
 .date {
 	font-size:.8em;
+	font-weight: 200;
 }
 
 .logo {
-	font-family: "brandon-grotesque";
-	font-weight: 900;
-	font-style: italic;
-	font-size:1.6em;
+	font-weight: 200;
+	font-size:1.75em;
 }
 
 .site-footer {

@@ -3,13 +3,13 @@
  */
 
 .wrapper {
-	max-width:30em;
+	max-width:35em;
 	margin:auto;
 }
 
 .logo {
 	display: block;
-	padding:0em .5em;
+	padding:0em .25em;
 }
 
 .nav--primary { /* <ul class='nav--primary' ></ul> */ }
@@ -25,6 +25,7 @@
 	display: block;
 	margin-right:5px;
 	padding:.75em 1em;
+	line-height: 2.25;
 	text-align: center;
 }
 
@@ -34,7 +35,7 @@
 	padding:.65em;
 }
 
-@media all and (max-width:40em){
+@media all and (max-width:50em){
 	.nav--primary{
 		display: none;
 		float:none;
@@ -67,6 +68,8 @@
 	height:20em;
 	width:20em;
 	border:5px solid green;
-	
-	
+}
+
+.errata{
+	display: block;
 }

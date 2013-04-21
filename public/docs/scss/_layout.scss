@@ -3,7 +3,13 @@
  */
 
 .site-header {
-	padding:.5em;
+	padding:2em .5em;
+}
+
+@media all and (max-width:50em){
+	.site-header{
+		padding:.5em;
+	}
 }
 
 .logo {

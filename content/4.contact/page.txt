@@ -1,13 +1,11 @@
 title: Contact
 -
 content:
-[301.531.4493](tel:3015314493)
 
-[jesse@jshawl.com](mailto:jesse@jshawl.com)
 
-[@jshawl](https://twitter.com/jshawl)
 
-[github](https://github.com/jshawl)
+__Phone:__  [301.531.4493](tel:3015314493)
 
-[grooveshark](http://grooveshark.com/#!/jesseshawl)
+__Email:__  [jesse@jshawl.com](mailto:jesse@jshawl.com)
 
+__Twitter:__  [@jshawl](https://twitter.com/jshawl)

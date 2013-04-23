@@ -550,7 +550,10 @@ h3 {
   .main {
     padding: 1em;
     margin: 0.5em 0; } }
-.main h1, .main h2, .main h3, .post p {
+.main h1, .post p {
+  margin: 0; }
+
+.post h3 {
   margin: 0; }
 
 .main h1 {
@@ -682,11 +685,12 @@ h1 {
 @media all and (max-width: 40em) {
   .nav--primary li {
     border-top: 1px solid #cccccc; } }
-.nav--primary li a,
-a {
+a, a:hover {
+  color: #F93F3B; }
+
+.site-header a {
   color: #222; }
-  .nav--primary li a:hover,
-  a:hover {
+  .site-header a:hover {
     color: #F93F3B; }
 
 .cf:after {

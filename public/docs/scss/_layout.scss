@@ -33,7 +33,11 @@
 	}
 }
 
-.main h1, .main h2, .main h3, .post p {
+.main h1, .post p {
+	margin:0;
+}
+
+.post h3{
 	margin:0;
 }
 
